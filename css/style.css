@@ -1,0 +1,51 @@
+h1 {
+    font-size:50px;
+    font-weight: bold;
+    color: #003049;
+}
+
+main {
+    background-color: #FDF0D5;
+}
+
+a.skip {
+        background: white;
+        left: 0;
+        padding: 6px;
+        position: absolute;
+        top: -40px;
+        -webkit-transition: top 1s ease-out;
+        transition: top 1s ease-out;
+        z-index: 1;
+    }
+
+a.skip:focus{
+        top:20px;
+        color: black;
+        text-decoration-style: solid;
+    }
+
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #780000;
+}
+
+.nav_item {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.nav_item a {
+    color: #FDF0D5;
+}
+
+.nav_item a:link {
+    text-decoration: none;
+}
+
+.nav_item a:hover {
+    color: #C1121F;
+}
