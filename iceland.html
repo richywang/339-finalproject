@@ -6,17 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>Richard Wang Travel Portfolio - Iceland</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Richard Wang Travel Portfolio - Home</title>
+
 </head>
 <body>
     <a class = "skip" href="#skip">Skip to Main Content</a>
     <header>
+        <div id="mobileSideNav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">HOME</a>
+                <a href="japan.html">JAPAN</a>
+                <a href="iceland.html">ICELAND</a>
+                <a href="canada.html">CANADA</a>
+        </div>
+        <img onclick ="openNav()" id="sidenavbtn" src="images/index/2041962-200.png">
         <nav>
             <ul class="nav_links">
-                <li class="nav_item"><a href="index.html">Home</a></li>
-                <li class="nav_item"><a href="japan.html">Japan</a></li>
-                <li class="nav_item"><a href="iceland.html">Iceland</a></li>
-                <li class="nav_item"><a href="canada.html">Canada</a></li>
+                <li class="nav_item"><a href="index.html">HOME</a></li>
+                <li class="nav_item"><a href="japan.html">JAPAN</a></li>
+                <li class="nav_item"><a href="iceland.html">ICELAND</a></li>
+                <li class="nav_item"><a href="canada.html">CANADA</a></li>
             </ul>
         </nav>
     </header>
@@ -35,5 +45,6 @@
             <img src="images/iceland/glacier.jpeg" alt="iceland glacier">
         </div>
     </main>
+        <script src="js/index.js"></script>
 </body>
 </html>

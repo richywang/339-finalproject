@@ -1,6 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 #travel {
-    background-image: url(images/index/10732936.jpeg);
+
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/index/10732936.jpeg);
     background-color: #000000;
     width: 100%;
+    background-attachment: fixed;
+    /* Parallax effect */
+    background-position: center;
+    /* Parallax effect */
+    background-repeat: no-repeat;
+    /* Parallax effect */
+    background-size: cover;
+    /* Parallax effect */
+    color: white;
     height: 400px;
+    /* Parallax effect */
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+#travel h1 {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    border: solid #ffffff 3px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+
+.fadein {
+    border-style: solid;
+    border-width: 2px 0px;
+    border-color: 5px;
+}
+
+.fadein a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding: 10px;
+    border: rgba(255, 255, 255, 0) solid;
+    border-width: 3px 0px;
+    transition: 0.5s ease-out;
+}
+
+.fadein a:hover {
+    transition: 0.5s ease-in;
+    border-color: rgba(255, 255, 255, 1);
+}
+
+.traveltabletsection {
+    display: none;
+}
+
+.traveltextsection {
+    display: none;
+}
+
+#japan {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/japan/kyoto_shrine.jpeg);
+    width: 100%;
+    background-attachment: fixed;
+    /* Parallax effect */
+    background-position: center;
+    /* Parallax effect */
+    background-repeat: no-repeat;
+    /* Parallax effect */
+    background-size: cover;
+    /* Parallax effect */
+    color: white;
+    height: 400px;
+    /* Parallax effect */
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* #japan:hover {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/japan/kyoto_shrine.jpeg);   
+} */
+
+
+#iceland {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/iceland/reflection.jpeg);
+    width: 100%;
+    background-attachment: fixed;
+    /* Parallax effect */
+    background-position: center;
+    /* Parallax effect */
+    background-repeat: no-repeat;
+    /* Parallax effect */
+    background-size: cover;
+    /* Parallax effect */
+    color: white;
+    height: 400px;
+    /* Parallax effect */
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* #iceland:hover {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/iceland/reflection.jpeg);   
+} */
+
+#canada {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/canada/quebec_city_night.png);
+    width: 100%;
+    background-attachment: fixed;
+    /* Parallax effect */
+    background-position: center;
+    /* Parallax effect */
+    background-repeat: no-repeat;
+    /* Parallax effect */
+    background-size: cover;
+    /* Parallax effect */
+    color: white;
+    height: 400px;
+    /* Parallax effect */
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* #canada:hover {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/canada/quebec_city_night.png);   
+} */
+
+
+@media screen and (min-width: 768px) {
+    #whereto {
+        background-image: url(../images/index/rm452-f-014-x.jpeg);
+        padding-top: 1%;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+
+    .traveltabletsection {
+        display: block;
+    }
+
+    .traveltabletsection h2 {
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .traveltabletsection h3 {
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    
+    .traveltabletsection p {
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .travelsection {
+        background-image: url(../images/index/paper-texture_1194-6010.webp);
+        width: 90%;
+        border: rgba(0, 0, 0, 0.7) 3px solid;
+        padding: 10px;
+        box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+
+
+
+}
+
+@media screen and (min-width: 1536px) {
+
+    .traveltabletsection {
+        display: none;
+    }
+
+    .traveltextsection {
+        display: block;
+    }
+
+    .traveltextsection h2 {
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+
+    .travelsection {
+        grid-column: \span 2;
+    }
+
+    #whereto {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
