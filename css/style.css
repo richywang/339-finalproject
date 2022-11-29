@@ -118,7 +118,7 @@ a.skip:focus{
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #818181;
+    background-color: #e0dfdb;
     color: 
     #2d2d2d;
     padding: 12px 20px;
@@ -181,7 +181,7 @@ a.skip:focus{
 }
   
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 425px) {
     
   #travelicon {
     display: block;
@@ -241,7 +241,7 @@ a.skip:focus{
 }
 
 
-@media screen and (min-width: 1536px) {
+@media screen and (min-width: 1024px) {
     .nav_links {
         width: 100%;
         display: grid;
