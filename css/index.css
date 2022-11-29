@@ -14,7 +14,7 @@
     background-size: cover;
     /* Parallax effect */
     color: white;
-    height: 400px;
+    height: 500px;
     /* Parallax effect */
     display: grid;
     justify-items: center;
@@ -25,10 +25,10 @@
 #travel h1 {
     text-align: center;
     color: white;
-    font-size: 4rem;
+    font-size: 8rem;
     border: solid #ffffff 3px;
     font-family: 'Oswald', sans-serif;
-    padding: 10px;
+    padding: 2%;
 }
 
 .fadein {
@@ -69,12 +69,18 @@
     padding: 5% 0;
 }
 
+#travelicon {
+    width: 5%;
+    margin-bottom: 2%;
+    height: auto;
+}
+
 .spacer h1 {
-    color: #ffffff;
+    color: #e0dfdb;
     font-family: 'Oswald', sans-serif;
-    font-size: 2.5rem;
+    font-size: 4rem;
     padding: 10px;
-    border: rgba(255, 255, 255, 1) solid;
+    border: rgba(224, 223, 219, 1) solid;
     border-width: 3px 0px;
     transition: 0.5s ease-out;
 }
@@ -248,6 +254,7 @@ footer h1 {
         align-items: center;
         justify-items: center;
     }
+
 
     .travelrow:nth-child(1), .travelrow:nth-child(3) {
         background-color: #e0dfdb;
