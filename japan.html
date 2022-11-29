@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <title>Richard Wang Travel Portfolio - Home</title>
+    <link rel="stylesheet" type="text/css" href="css/japan.css">
+    <link rel="icon" href="images/index/icon.png">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Japan</title>
 
 </head>
 <body>
@@ -20,15 +22,19 @@
                 <a href="iceland.html">ICELAND</a>
                 <a href="canada.html">CANADA</a>
         </div>
-        <img onclick ="openNav()" id="sidenavbtn" src="images/index/2041962-200.png">
-        <nav>
-            <ul class="nav_links">
-                <li class="nav_item"><a href="index.html">HOME</a></li>
-                <li class="nav_item"><a href="japan.html">JAPAN</a></li>
-                <li class="nav_item"><a href="iceland.html">ICELAND</a></li>
-                <li class="nav_item"><a href="canada.html">CANADA</a></li>
-            </ul>
-        </nav>
+        <div id="mobileNav" class="mobilenav">
+            <img onclick ="openNav()" id="sidenavbtn" src="images/index/2041962-200.png">
+        </div>
+        <div id="tabletNav" class="tabnav">
+            <nav>
+                <ul class="nav_links">
+                    <li class="nav_item"><a href="index.html">HOME</a></li>
+                    <li class="nav_item"><a href="japan.html">JAPAN</a></li>
+                    <li class="nav_item"><a href="iceland.html">ICELAND</a></li>
+                    <li class="nav_item"><a href="canada.html">CANADA</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main id="skip">
         <h1>Japan</h1>
@@ -48,7 +54,36 @@
             <img src="images/japan/shibuya_crossing.jpeg" alt="shibuya crossing">
             <img src="images/japan/skyline.jpeg" alt="japan skyline suspension bridge">
         </div>
+    </div>
     </main>
-    <script src="js/index.js"></script>
+    <footer>
+        <div class="spacer">
+            <img id="travelicon" src="images/index/icon.png">
+            <h1>Get In Touch</h1>
+            <div class="contactus">
+                <form action="https://getform.io/f/4895454d-5e24-4dc8-b7d9-47c55d35e0fd" method="POST">
+
+                    <label for="fname">FIRST NAME</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
+                
+                    <label for="lname">LAST NAME</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..." required>
+                
+                    <label for="subject">SUBJECT</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject..." required>
+
+                    <label for="Message">MESSAGE</label>
+                    <textarea id="message" name="message" placeholder="Write something..." style="height:200px" required></textarea>
+                
+                    <input class = "submit" type="submit" value="SUBMIT">
+                
+                </form>
+            </div>
+
+        </div>
+        <p>University of Michigan College of Information</p>
+        <p>Richard Wang - Web Design Fall 2022</p>
+    </footer>
+    <script src="js/nav.js"></script>
 </body>
 </html>
