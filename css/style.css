@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cardo:400,700|Oswald');
 
 #tabletnav {
     display: none;
@@ -91,6 +91,75 @@ a.skip:focus{
     background-color: #010101;
   }
 
+    footer {
+        background-color: #2d2d2d;
+        padding-top: 2%;
+    }
+
+    footer p {
+        color: #e0dfdb;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1rem;
+    }
+
+    /* Style inputs with type="text", select elements and textareas */
+    input[type=text], select, textarea {
+        width: 100%; /* Full width */
+        padding: 12px; /* Some padding */ 
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+        background-color: #fffbf1;
+        color: #2d2d2d;
+    }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #818181;
+    color: 
+    #2d2d2d;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: white;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contactus {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    width: 50%;
+    background-color: #2d2d2d;
+    padding: 2%;
+  }
+
+  .contactus h1 {
+    color: #e0dfdb;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .contactus label {
+    color: #e0dfdb;
+    font-family: 'Cardo', serif;
+    font-size: 1.5rem;
+  }
+
+  form {
+    text-align: center;
+  }
+
+
+  
 
 @media screen and (min-width: 768px) {
     
