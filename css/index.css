@@ -61,6 +61,32 @@
     display: none;
 }
 
+.spacer {
+    background-color: #2d2d2d;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 5% 0;
+}
+
+.spacer h1 {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    padding: 10px;
+    border: rgba(255, 255, 255, 1) solid;
+    border-width: 3px 0px;
+    transition: 0.5s ease-out;
+}
+
+footer {
+    background-color: #2d2d2d;
+}
+
+footer h1 {
+    color: #e0dfdb
+}
+
 #japan {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/japan/kyoto_shrine.jpeg);
     width: 100%;
@@ -137,13 +163,17 @@
 
 @media screen and (min-width: 768px) {
     #whereto {
-        background-image: url(../images/index/rm452-f-014-x.jpeg);
+        background-color: #e0dfdb;
         padding-top: 1%;
         width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-items: center;
+        display: flex;
+        flex-direction: row;
         padding-bottom: 2%;
+    }
+    
+
+    .travelrow {
+        width: 100%;
     }
 
     .traveltabletsection {
@@ -152,9 +182,10 @@
 
     .travelsection {
         background-image: url(../images/index/paper-texture_1194-6010.webp);
-        width: 90%;
+        width: 95%;
         border: rgba(0, 0, 0, 0.7) 3px solid;
         padding: 10px;
+        margin: auto;
         transition: 0.3s ease-out;
     }
 
@@ -180,34 +211,50 @@
 
 @media screen and (min-width: 1536px) {
 
-
     .travelsection {
         grid-column: \span 2;
         opacity: 0;
         position: relative;
         top: 20px;
+        transition: none;
     }
 
     .traveltextsection {
         opacity: 0;
         position: relative;
         top: 20px;
-        transition: 0.3s ease-out;
+        transition: none;
+    }
+
+    .travelsection:hover {
+        transition: none;
     }
 
     .traveltextsection:hover {
         box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
-        transition: 0.3s ease-in;
+        transition: none;
     }
 
     #whereto {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        align-items: center;
-        row-gap: 5%;
-        padding-bottom: 10%;
+        display: flex;
+        flex-direction: column;
     }
 
+    .travelrow {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1% 0px;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .travelrow:nth-child(1), .travelrow:nth-child(3) {
+        background-color: #e0dfdb;
+    }
+
+    .travelrow:nth-child(2) {
+        background-color: #fffbf1;
+    }
 
     .traveltabletsection {
         display: none;
