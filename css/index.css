@@ -201,7 +201,7 @@ footer h1 {
     }
 
     .traveltabletsection h3 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-family: 'Oswald', sans-serif;
         text-align: center;
     }
@@ -238,6 +238,7 @@ footer h1 {
     #whereto {
         display: flex;
         flex-direction: column;
+        padding-bottom: 0%;
     }
 
     .travelrow {
@@ -276,7 +277,7 @@ footer h1 {
     }
 
     .traveltextsection h3 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-family: 'Oswald', sans-serif;
         text-align: center;
     }
