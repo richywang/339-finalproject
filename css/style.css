@@ -158,11 +158,38 @@ a.skip:focus{
     text-align: center;
   }
 
+  .spacer {
+    background-color: #2d2d2d;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 5% 0;
+}
 
+#travelicon {
+    display: none;
+}
+
+.spacer h1 {
+    color: #e0dfdb;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    padding: 10px;
+    border: rgba(224, 223, 219, 1) solid;
+    border-width: 3px 0px;
+    transition: 0.5s ease-out;
+}
   
 
 @media screen and (min-width: 768px) {
     
+  #travelicon {
+    display: block;
+    width: 5%;
+    margin-bottom: 2%;
+    height: auto;
+}
+
     .sidenav {
         display: none;
     }

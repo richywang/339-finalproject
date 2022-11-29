@@ -61,28 +61,6 @@
     display: none;
 }
 
-.spacer {
-    background-color: #2d2d2d;
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    padding: 5% 0;
-}
-
-#travelicon {
-    display: none;
-}
-
-.spacer h1 {
-    color: #e0dfdb;
-    font-family: 'Oswald', sans-serif;
-    font-size: 3rem;
-    padding: 10px;
-    border: rgba(224, 223, 219, 1) solid;
-    border-width: 3px 0px;
-    transition: 0.5s ease-out;
-}
-
 #japan {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/japan/kyoto_shrine.jpeg);
     width: 100%;
