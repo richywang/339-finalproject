@@ -3,6 +3,14 @@
     grid-template-columns: 1fr;
 }
 
+.polaroid h2 {
+    display: none;
+}
+
+.gridtext {
+    display: none;
+}
+
 @media screen and (min-width: 768px) {
     .gridcontainer {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/japan/kyoto_lamp.jpg);
@@ -59,12 +67,33 @@
 }
 
 @media screen and (min-width: 1024px) {
+
+    .polaroid h2 {
+        display: block;
+    }
+
     .gridtext {
         display: none;
     }
     
     .gridrow {
         grid-template-columns: 1fr;
+    }
+
+    .polaroid {
+        background-image: url(../images/index/white-linen-paper-texture.webp);
+        display: grid;
+        justify-items: center;
+        border: rgba(0, 0, 0, 1) solid 3px;
+    }
+
+    .polaroid h2 {
+        font-size: 2rem;
+        font-family: 'Oswald', sans-serif;
+        color: #2d2d2d;
+        border: #2d2d2d 0px solid;
+        border-bottom-width: 3px;
+        margin-bottom: 1%;
     }
 
 }
