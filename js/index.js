@@ -9,11 +9,11 @@ $(document).ready(function() {
           /* Check the location of each desired element */
           $('.travelsection').each( function(i){
               
-              let top_of_object = $(this).position().top;
+              let top_of_object = $(this).position().top + $(this).outerHeight()/2;
               let bottom_of_window = $(window).scrollTop() + $(window).height();
               
               /* If the object is completely visible in the window, fade it it */
-              if( bottom_of_window+50 > top_of_object ){
+              if( bottom_of_window > top_of_object ){
                   
                   $(this).animate({'top': '0', 'opacity':'1'},1000);
                       
@@ -23,7 +23,7 @@ $(document).ready(function() {
 
           $('.traveltextsection').each( function(i){
               
-            let top_of_object = $(this).position().top;
+            let top_of_object = $(this).position().top + $(this).outerHeight()/2;
             let bottom_of_window = $(window).scrollTop() + $(window).height();
             
             /* If the object is completely visible in the window, fade it it */

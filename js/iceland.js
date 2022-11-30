@@ -8,7 +8,7 @@ $(document).ready(function() {
 
           $('.flexrow').each( function(i){
               
-            let top_of_object = $(this).position().top;
+            let top_of_object = $(this).position().top + $(this).outerHeight()/2;
             let bottom_of_window = $(window).scrollTop() + $(window).height();
             
             /* If the object is completely visible in the window, fade it it */
