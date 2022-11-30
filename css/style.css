@@ -4,12 +4,6 @@
     display: none;
 }
 
-h1 {
-    font-size:50px;
-    font-weight: bold;
-    color: #003049;
-}
-
 #sidenavbtn {
     height: 10%;
     width: 10%;
@@ -18,7 +12,7 @@ h1 {
 
 
 main {
-    background-color: #ffffff;
+    background-color: #e0dfdb;
 }
 
 a.skip {
