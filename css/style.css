@@ -65,6 +65,7 @@ a.skip:focus{
     color: #818181;
     display: block;
     transition: 0.3s;
+    background-color: #111111;
   }
   
   /* When you mouse over the navigation links, change their color */
@@ -176,10 +177,15 @@ a.skip:focus{
     transition: 0.5s ease-out;
     text-align: center;
 }
-  
 
-@media screen and (min-width: 425px) {
-    
+
+@media screen and (min-width: 480px) {
+
+    .currentlink {
+        border-top: #818181 3px solid;
+        border-bottom: #818181 3px solid;
+    }
+
   #travelicon {
     display: block;
     width: 5%;
@@ -223,16 +229,25 @@ a.skip:focus{
     .nav_item a {
         font-size: 20px;
         font-family: 'Oswald', sans-serif;
+        border: rgba(255, 255, 255, 0) solid;
+        border-width: 3px 0;
         color: #818181;
         transition: 0.3s ease-out;
     }
     
+    .nav_item .currentlink {
+        border-top: #818181 3px solid;
+        border-bottom: #818181 3px solid;
+    }
+
     .nav_item a:link {
         text-decoration: none;
     }
     
     .nav_item a:hover {
         color: #ffffff;
+        border: rgba(255, 255, 255, 1) solid;
+        border-width: 3px 0;
         transition: 0.3s ease-in;
     }
 }
