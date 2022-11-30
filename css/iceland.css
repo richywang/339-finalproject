@@ -17,7 +17,7 @@
     display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
     .flexcontainer {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/iceland/walk_falls.jpeg);
         width: 100%;
@@ -58,6 +58,7 @@
     }
 
     .polaroid h2 {
+        display: block;
         font-size: 2rem;
         font-family: 'Oswald', sans-serif;
         color: #2d2d2d;
@@ -112,7 +113,7 @@
         font-family: 'Oswald', sans-serif;
         border: #2d2d2d 0px solid;
         border-bottom-width: 3px;
-        font-size: 4rem;
+        font-size: 1.5rem;
         padding: 1%;
     }
 }

@@ -12,7 +12,7 @@
     display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 480px) {
     .gridcontainer {
         background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/japan/kyoto_lamp.jpg);
         width: 100%;
@@ -78,7 +78,15 @@
     }
     
     .gridrow {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .polaroid:nth-child(2n-1) {
+        grid-column: 1 /span 2;
+    }
+
+    .polaroid:nth-child(2n) {
+        grid-column: 2 /span 2;
     }
 
     .polaroid {
