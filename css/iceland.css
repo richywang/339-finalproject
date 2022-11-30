@@ -38,6 +38,9 @@
 
     .flexrow {
         margin: 1% 0;
+        position: relative;
+        top: 20px;
+        opacity: 0;
     }
     
     .polaroid {
@@ -74,7 +77,10 @@
 
 @media screen and (min-width: 1024px) {
 
-    
+    .flexcontainer {
+        flex-direction: column-reverse;
+    }
+
     .flexrow {
         display: flex;
         flex-direction: row;

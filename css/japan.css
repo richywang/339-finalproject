@@ -37,6 +37,9 @@
         grid-template-columns: 1fr 1fr;
         justify-items: center;
         padding: 1%;
+        position: relative;
+        top: 20px;
+        opacity: 0;
     }
     
     .griditem {
