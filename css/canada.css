@@ -136,7 +136,7 @@
 
   .numbertext {
     color: #2d2d2d;
-    background-color: none;
+    background-color: rgba(0, 0, 0, 0);
   }
 
   .slide {
