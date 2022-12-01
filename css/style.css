@@ -16,21 +16,21 @@ main {
 }
 
 a.skip {
-        background: white;
-        left: 0;
-        padding: 6px;
-        position: absolute;
-        top: -40px;
-        -webkit-transition: top 1s ease-out;
-        transition: top 1s ease-out;
-        z-index: 1;
-    }
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+}
 
-a.skip:focus{
-        top:20px;
-        color: black;
-        text-decoration-style: solid;
-    }
+a.skip:focus {
+    top: 20px;
+    color: black;
+    text-decoration-style: solid;
+}
 
 .nav_links {
     display: none;
@@ -44,20 +44,29 @@ a.skip:focus{
 
 /* The side navigation menu */
 .sidenav {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
     left: 0;
-    background-color: #111111; /* Black*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 15px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
-  
-  /* The navigation menu links */
-  .sidenav a {
+    background-color: #111111;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 15px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
@@ -66,71 +75,81 @@ a.skip:focus{
     display: block;
     transition: 0.3s;
     background-color: #111111;
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
+}
 
-  #mobileNav {
+#mobileNav {
     background-color: #010101;
-  }
+}
 
-    footer {
-        background-color: #2d2d2d;
-        padding-top: 2%;
-    }
+footer {
+    background-color: #2d2d2d;
+    padding-top: 2%;
+}
 
-    footer p {
-        color: #e0dfdb;
-        font-family: 'Oswald', sans-serif;
-        font-size: 1rem;
-    }
+footer p {
+    color: #e0dfdb;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+}
 
-    /* Style inputs with type="text", select elements and textareas */
-    input[type=text], select, textarea {
-        width: 100%; /* Full width */
-        padding: 12px; /* Some padding */ 
-        border: 1px solid #ccc; /* Gray border */
-        border-radius: 4px; /* Rounded borders */
-        box-sizing: border-box; /* Make sure that padding and width stays in place */
-        margin-top: 6px; /* Add a top margin */
-        margin-bottom: 16px; /* Bottom margin */
-        resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-        background-color: #fffbf1;
-        color: #2d2d2d;
-        font-family: 'Cardo', serif;
-    }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical;
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+    background-color: #fffbf1;
+    color: #2d2d2d;
+    font-family: 'Cardo', serif;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
     background-color: #e0dfdb;
-    color: 
-    #2d2d2d;
+    color:
+        #2d2d2d;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-family: 'Oswald', sans-serif;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
     background-color: white;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .contactus {
+}
+
+/* Add a background color and some padding around the form */
+.contactus {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -138,24 +157,24 @@ a.skip:focus{
     width: 50%;
     background-color: #2d2d2d;
     padding: 2%;
-  }
+}
 
-  .contactus h1 {
+.contactus h1 {
     color: #e0dfdb;
     font-family: 'Oswald', sans-serif;
-  }
+}
 
-  .contactus label {
+.contactus label {
     color: #e0dfdb;
     font-family: 'Oswald', sans-serif;
     font-size: 1.25rem;
-  }
+}
 
-  form {
+form {
     text-align: center;
-  }
+}
 
-  .spacer {
+.spacer {
     background-color: #2d2d2d;
     display: grid;
     grid-template-columns: 1fr;
@@ -186,27 +205,27 @@ a.skip:focus{
         border-bottom: #818181 3px solid;
     }
 
-  #travelicon {
-    display: block;
-    width: 5%;
-    margin-bottom: 2%;
-    height: auto;
-}
+    #travelicon {
+        display: block;
+        width: 5%;
+        margin-bottom: 2%;
+        height: auto;
+    }
 
     .sidenav {
         display: none;
     }
-    
+
     #mobileNav {
         display: none;
     }
 
     #tabletNav {
-        display:block;
+        display: block;
     }
 
     nav {
-        display:block;
+        display: block;
         width: 100%;
         background-color: #111111;
         border-style: solid;
@@ -214,18 +233,18 @@ a.skip:focus{
         border-width: 0px 0px 3px 0px;
         top: 0;
     }
-    
+
     .nav_links {
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
     }
-    
+
     .nav_item {
         padding: 20px;
     }
-    
+
     .nav_item a {
         font-size: 20px;
         font-family: 'Oswald', sans-serif;
@@ -234,7 +253,7 @@ a.skip:focus{
         color: #818181;
         transition: 0.3s ease-out;
     }
-    
+
     .nav_item .currentlink {
         border-top: #818181 3px solid;
         border-bottom: #818181 3px solid;
@@ -243,7 +262,7 @@ a.skip:focus{
     .nav_item a:link {
         text-decoration: none;
     }
-    
+
     .nav_item a:hover {
         color: #ffffff;
         border: rgba(255, 255, 255, 1) solid;

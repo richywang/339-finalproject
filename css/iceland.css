@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 480px) {
     .flexcontainer {
-        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/iceland/walk_falls.jpeg);
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/iceland/walk_falls.jpeg);
         width: 100%;
         background-attachment: fixed;
         /* Parallax effect */
@@ -42,7 +42,7 @@
         top: 20px;
         opacity: 0;
     }
-    
+
     .polaroid {
         background-image: url(../images/index/white-linen-paper-texture.webp);
         display: grid;
@@ -54,7 +54,7 @@
         margin: auto;
         border: rgba(0, 0, 0, 1) solid 3px;
     }
-    
+
     .polaroid img {
         width: 98%;
         height: 98%;

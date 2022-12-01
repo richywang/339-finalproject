@@ -2,7 +2,7 @@
 
 #travel {
 
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/index/10732936.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/index/10732936.jpeg);
     background-color: #000000;
     width: 100%;
     background-attachment: fixed;
@@ -62,7 +62,7 @@
 }
 
 #japan {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/japan/kyoto_shrine.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/japan/kyoto_shrine.jpeg);
     width: 100%;
     background-attachment: fixed;
     /* Parallax effect */
@@ -87,7 +87,7 @@
 
 
 #iceland {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/iceland/reflection.jpeg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/iceland/reflection.jpeg);
     width: 100%;
     background-attachment: fixed;
     /* Parallax effect */
@@ -111,7 +111,7 @@
 } */
 
 #canada {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/canada/quebec_city_night.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/canada/quebec_city_night.png);
     width: 100%;
     background-attachment: fixed;
     /* Parallax effect */
@@ -152,7 +152,7 @@
         flex-direction: row;
         padding-bottom: 2%;
     }
-    
+
 
     .travelrow {
         width: 100%;
@@ -233,7 +233,8 @@
     }
 
 
-    .travelrow:nth-child(1), .travelrow:nth-child(3) {
+    .travelrow:nth-child(1),
+    .travelrow:nth-child(3) {
         background-color: #e0dfdb;
     }
 
@@ -267,7 +268,7 @@
         font-family: 'Oswald', sans-serif;
         text-align: center;
     }
-    
+
     .traveltextsection p {
         font-size: 1rem;
         font-family: 'Cardo', serif;
