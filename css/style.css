@@ -21,7 +21,6 @@ a.skip {
     padding: 6px;
     position: absolute;
     top: -40px;
-    -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
     z-index: 1;
 }
@@ -246,7 +245,7 @@ form {
     }
 
     .nav_item a {
-        font-size: 20px;
+        font-size: 2rem;
         font-family: 'Oswald', sans-serif;
         border: rgba(255, 255, 255, 0) solid;
         border-width: 3px 0;

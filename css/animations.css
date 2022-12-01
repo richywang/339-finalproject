@@ -1,0 +1,15 @@
+@media screen and (prefers-reduced-motion) {
+    * {
+        animation: none;
+        transition-duration: 0s;
+    }
+
+
+    .fadein a, .fadein a:hover, a.skip, .sidenav, .sidenav a, .spacer h1, .nav_item a, .nav_item a:hover {
+        transition-duration: 0s;
+    }
+
+    .fade {
+        animation: none;
+    }
+}
