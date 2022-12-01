@@ -6,7 +6,8 @@ $(document).ready(function () {
     /* Every time the window is scrolled ... */
     $(window).scroll(function () {
 
-      $('.flexrow').each(function (i) {
+      /* Check the location of each desired element */
+      $('.fadescroll').each(function (i) {
 
         let top_of_object = $(this).position().top + $(this).outerHeight() / 2;
         let bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -24,14 +25,7 @@ $(document).ready(function () {
   }
   else {
     /* Check the location of each desired element */
-    $('.travelsection').each(function (i) {
-
-      $(this).css('opacity', 1);
-      $(this).css('top', 0);
-
-    });
-
-    $('.traveltextsection').each(function (i) {
+    $('.fadescroll').each(function (i) {
 
       $(this).css('opacity', 1);
       $(this).css('top', 0);
