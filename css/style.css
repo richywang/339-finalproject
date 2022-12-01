@@ -4,6 +4,10 @@
     display: none;
 }
 
+#desktopNav {
+    display: none;
+}
+
 #sidenavbtn {
     height: 10%;
     width: 10%;
@@ -221,9 +225,13 @@ form {
         display: none;
     }
 
+
+
+
     #tabletNav {
         display: block;
     }
+
 
     nav {
         display: block;
@@ -272,10 +280,23 @@ form {
 
 
 @media screen and (min-width: 1024px) {
+    #tabletNav {
+        display: none;
+    }
+
+    #desktopNav {
+        display: block;
+    }
     .nav_links {
         width: 100%;
         display: grid;
-        grid-template-columns: 70% 10% 10% 10%;
-
+        grid-template-columns: 2fr 1fr;
     }
+    
+    .nav_right {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+    
 }
