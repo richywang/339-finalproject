@@ -34,7 +34,6 @@
 .fadein {
     border-style: solid;
     border-width: 2px 0px;
-    border-color: 5px;
 }
 
 .fadein a {
@@ -48,7 +47,8 @@
     transition: 0.5s ease-out;
 }
 
-.fadein a:hover {
+.fadein a:hover,
+.fadein a:focus {
     transition: 0.5s ease-in;
     border-color: rgba(255, 255, 255, 1);
 }
@@ -172,7 +172,8 @@
         transition: 0.3s ease-out;
     }
 
-    .travelsection:hover {
+    .travelsection:hover,
+    .travelsection:focus {
         box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
         transition: 0.3s ease-in;
     }
@@ -209,11 +210,13 @@
         transition: none;
     }
 
-    .travelsection:hover {
+    .travelsection:hover,
+    .travelsection:focus {
         transition: none;
     }
 
-    .traveltextsection:hover {
+    .traveltextsection:hover,
+    .traveltextsection:focus {
         box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
         transition: none;
     }

@@ -77,7 +77,8 @@ a.skip:focus {
 }
 
 /* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
+.sidenav a:hover,
+.sidenav a:focus {
     color: #f1f1f1;
 }
 
@@ -143,7 +144,8 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+input[type=submit]:hover,
+input[type=submit]:focus {
     background-color: white;
 }
 
@@ -181,7 +183,7 @@ form {
     padding: 5% 0;
 }
 
-#travelicon {
+.icon {
     display: none;
 }
 
@@ -204,7 +206,7 @@ form {
         border-bottom: #818181 3px solid;
     }
 
-    #travelicon {
+    .icon {
         display: block;
         width: 5%;
         margin-bottom: 2%;
@@ -259,7 +261,8 @@ form {
         text-decoration: none;
     }
 
-    .nav_item a:hover {
+    .nav_item a:hover,
+    .nav_item a:focus {
         color: #ffffff;
         border: rgba(255, 255, 255, 1) solid;
         border-width: 3px 0;

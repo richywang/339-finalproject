@@ -5,7 +5,16 @@
     }
 
 
-    .fadein a, .fadein a:hover, a.skip, .sidenav, .sidenav a, .spacer h1, .nav_item a, .nav_item a:hover {
+    .fadein a,
+    .fadein a:hover,
+    .fadein a:focus,
+    a.skip,
+    .sidenav,
+    .sidenav a,
+    .spacer h1,
+    .nav_item a,
+    .nav_item a:hover,
+    .nav_item a:focus {
         transition-duration: 0s;
     }
 
